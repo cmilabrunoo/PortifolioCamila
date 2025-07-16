@@ -152,3 +152,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Função para verificar links de projetos
+document.querySelectorAll('.project-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        if(this.getAttribute('href').includes('projetos/')) {
+            localStorage.setItem('lastProject', this.getAttribute('href'));
+        }
+    });
+});

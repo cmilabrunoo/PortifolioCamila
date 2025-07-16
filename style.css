@@ -508,6 +508,7 @@ footer {
     }
 }
 
+
 /* Efeitos especiais */
 ::selection {
     background-color: var(--primary-color);
@@ -529,4 +530,17 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-color);
+}
+
+/* Estilo específico para ícone de relógio */
+.project-card .fa-clock {
+    color: #6a5acd; /* Cor lilás para diferenciar */
+}
+
+/* Ajuste para links de projeto */
+.project-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
 }
