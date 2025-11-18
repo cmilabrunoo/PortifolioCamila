@@ -1,0 +1,6 @@
+[submodule "RelogioCamila"]
+	path = RelogioCamila
+	url = https://github.com/cmilabrunoo/RelogioCamila.git
+[submodule "AssistenteVirtual"]
+	path = AssistenteVirtual
+	url = https://github.com/cmilabrunoo/AssistenteVirtual.git
